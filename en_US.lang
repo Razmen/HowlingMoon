@@ -66,6 +66,8 @@ itemGroup.howlingmoon=Howling Moon
 
 # Entities
 ###############
+item.howlingmoon_spawnEgg_alphaWolf.name=Dire Wolf
+item.howlingmoon_spawnEgg_werewolf.name=Werewolf
 entity.howlingmoon.alphawolf.name=Dire Wolf
 entity.howlingmoon.werewolf.name=Werewolf
 
