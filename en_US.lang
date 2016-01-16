@@ -142,7 +142,7 @@ werewolf.tame.behavior=Behaviors
 werewolf.tame.playerAttack=Attacks Players
 werewolf.tame.animalAttack=Attacks Animals
 werewolf.tame.villagerAttack=Attacks Villagers
-werewolf.tame.bonesAttack=Likes bones
+werewolf.tame.bonesAttack=Attacks Skeletons
 werewolf.tame.leap=Leaps at targets
 werewolf.tame.water=Hates Water
 werewolf.tame.doors=Likes to breaks doors
@@ -185,15 +185,17 @@ book.werewolf:wolfBook.title.AdditionalEffects=Additional Effects
 book.werewolf:wolfBook.title.SavageryEffects=Savagery Effects
 book.werewolf:wolfBook.title.Stages=Stages
 book.werewolf:wolfBook.title.Pack=Taming
+book.werewolf:wolfBook.title.Behaviors=Behaviors
 
 # Werewolves
-book.werewolf:wolfBook.page.werewolf=Werewolves are rare strong vicious creatures that come out on a full moon night. However each werewolf exhibits different behavior. For example it has been observed that some only feed on specific things and range in savageness.
-book.werewolf:wolfBook.page.werewolf2=When a person is bitten by a werewolf or infected wolf that person may transform into a werewolf during the next full moon. A person infected will feel the change coming the day of a full moon. A werewolf is forced to transform every full moon night. 
+book.werewolf:wolfBook.page.werewolf=Werewolves are rare strong vicious creatures that come out on a full moon night.
+book.werewolf:wolfBook.page.werewolf1=Werewolves can be found in a variety of forests, sometimes even in plains. It is interesting to note that each werewolf exhibits different behavior. For example it has been observed that some only feed on specific things and range in savageness.
+book.werewolf:wolfBook.page.werewolf2=When a person is bitten by a werewolf or infected wolf that person may transform into a werewolf during the next full moon. A person infected but not yet a werewolf, will feel the change coming the day of a full moon, be aware of this so you are not taken by suprise when the pulse comes. A werewolf is forced to transform every full moon night. 
 book.werewolf:wolfBook.page.werewolf3=A werewolf is able to eat raw meat more efficiently at the cost of gaining savagery, even when not transformed. Werewolves have a additional hunger, if it is not filled when leaving a transformation they will be weakened.
 book.werewolf:wolfBook.page.werewolf4=A werewolf while transformed deals increased damage with empty hands, can run faster, jump higher, fall further without being hurt, and take less damage. Some of these effects are reduced if the werewolf is wearing armor. Werewolves are weak to the Wolfsbane enchantment.
 
-book.werewolf:wolfBook.page.pack=While werewolves are generally savage creatures they can still be brought in line by a leader, a alpha wolf. However the alpha must make sure they stay the leader, as werewolves are always looking for signs of weakness to take over.
-book.werewolf:wolfBook.page.pack2=In order to tame a werewolf or dire wolf you must first be a werewolf yourself. While a werewolf, howl to attract their attention then give them meat. You have a 10 second window after howling to tame them. If you have enough savagery compared to the wolf it will be successful, if not you'll just be wasting meat.
+book.werewolf:wolfBook.page.pack=While werewolves are generally savage creatures they can still be brought in line by a leader, a alpha wolf. However the alpha must make sure they stay the leader, as werewolves are always looking for signs of weakness to take over. The higher a werewolf's savagery is compared to their owner, the harder they become to control, eventually becoming untamed.
+book.werewolf:wolfBook.page.pack2=In order to tame a werewolf or dire wolf you must first be a werewolf yourself. While a werewolf, howl to attract their attention then give them meat. You have a 10 second window after howling to tame them. If your savagery is greater or within 2 levels compared to the wolf it will be successful, if not you'll just be wasting meat.
 book.werewolf:wolfBook.page.pack3=Once a werewolf or dire wolf is tamed, the owner can check the stats of their werewolf by interacting with them. You can give commands and check their behavior in there. If you are not their owner, then you will be able to see who the owner is if they are around.
 book.werewolf:wolfBook.page.pack4=Each werewolf has their own behavior that can not be changed. However some of these behaviors can be suppressed while tamed and well fed. Anyone can feed a tame werewolf or dire wolf, just use their favorite food on them.
 
@@ -201,8 +203,8 @@ book.werewolf:wolfBook.page.pack4=Each werewolf has their own behavior that can 
 book.werewolf:wolfBook.page.savagery=Savagery indicates how far one has embrace the beast within. The more savagery one has, the stronger one becomes, but at a cost. There are five stages of savagery.
 book.werewolf:wolfBook.page.savagery2=Each higher stage increases hunger
 book.werewolf:wolfBook.page.savagery.NA=Natural Armor: Take less damage, but armor weighs you down.
-book.werewolf:wolfBook.page.savagery.WP=Wolf Paws: Faster with empty paws, slower and less damage with tools.
-book.werewolf:wolfBook.page.savagery.H=Hunger: Hunger takes affect even when human. Forces a transformation if filled.
+book.werewolf:wolfBook.page.savagery.WP=Wolf Paws: Faster with empty paws, slower and weaker with tools and weapons.
+book.werewolf:wolfBook.page.savagery.H=Hunger: Secondary Hunger takes affect even when human. Forces a transformation if filled.
 book.werewolf:wolfBook.page.savagery.stage2=Stage 2
 book.werewolf:wolfBook.page.savagery.leap=Gain Leap ability
 book.werewolf:wolfBook.page.savagery.NA2=Natural Armor +
@@ -226,17 +228,18 @@ book.werewolf:wolfBook.page.wolfsbane=Wolfsbane is a poisonous plant that is use
 book.werewolf:wolfBook.potion=These potions are crafted normally, instead of using a brewing stand.
 book.werewolf:wolfBook.page.wolfsbanePotion=A potion that can cure a person's werewolf infliction. If a non werewolf consumes the potion they will gain immunity to the infection. Consuming one again will remove the immunity.       Note: This potion is poisonous.
 book.werewolf:wolfBook.page.calmingPotion=A potion that calms the beast within, lowering one's savagery. If a person is infected but not yet a werewolf, it will remove the infection.
-book.werewolf:wolfBook.page.savagePotion=A potion that calls out the beast within, increasing one's savagery.
+book.werewolf:wolfBook.page.savagePotion=A potion that calls out the beast within, increasing one's savagery. If used on a regular tamed wolf, it will transform them into a dire wolf.
 
 # Charms
-book.werewolf:wolfBook.charms=Charms are objects which are hung under a block, that bring positive effects to werewolf players near them.
+book.werewolf:wolfBook.charms=Charms are objects which are hung under a block, that bring positive effects to werewolves near them. They take affect in a 8 block radius around the charm. Interestly these charms seem to only affect werewolves with the mental capacity to create them, and do not affect feral ones, even when tamed.
 book.werewolf:wolfBook.charmBase=The basis for creating charms. It has no effect itself, but can still be placed.
 book.werewolf:wolfBook.charmCalming=A charm infused with a calming potion. It slowly reduces the savagery of werewolves nearby.
 book.werewolf:wolfBook.charmSavage=A charm infused with a savage potion. It slowly increases the savagery of werewolves nearby.
-book.werewolf:wolfBook.charmSatiation=A charm infused with food. It reduces the the hunger of werewolves nearby.
+book.werewolf:wolfBook.charmSatiation=A charm infused with food. It reduces the the secondary hunger and increases saturation of werewolves nearby.
 
 # Wards
-book.werewolf:wolfBook.wards=Wards are objects placed on the ground, that offer protection against werewolves. Wards have 3 different modes that can be toggled in the gui.      Modes: All, Mobs, Players
+book.werewolf:wolfBook.wards=Wards are objects placed on the ground, that offer protection against werewolves. They take affect in a 8 block radius around the ward. Wards have 3 different modes that can be toggled in the gui.      Modes: All, Mobs, Players
+book.werewolf:wolfBook.wards.note=Werewolves are unable to access the gui while transformed.
 book.werewolf:wolfBook.wardBase=The basis for creating wards. It has no effect itself, but can still be placed.
 book.werewolf:wolfBook.wardRepelling=A ward infused with a wolfsbane potion. It pushes werewolves away.
 book.werewolf:wolfBook.wardSlowing=A ward infused with the ingredients of a slowness potion. It reduces the movement speed of werewolves nearby.
@@ -253,13 +256,13 @@ book.werewolf:wolfBook.abilities.leap=Tier 2: Leap
 book.werewolf:wolfBook.abilities.nv=Tier 3: Night Vision
 book.werewolf:wolfBook.abilities.st=Tier 4: Scent Tracking
 book.werewolf:wolfBook.howl1=Howls loudly to attract attention of nearby wolves. Used to tame wild werewolves and dire wolves.
-book.werewolf:wolfBook.howl2=Activate: Howl key. Also Drop key while holding nothing if CompactButtons is on.
-book.werewolf:wolfBook.paw=Keeps a equipped empty hand empty. However if there is no other empty space in inventory the item will appear in hand. Adjust in menu.
-book.werewolf:wolfBook.leap=Jumps in a direction at a fast velocity. There are 3 modes that can be cycled through: Off, Forward, Aim.
+book.werewolf:wolfBook.howl2=Activate: Howl key. Also Drop Item key while holding nothing if CompactButtons is on.
+book.werewolf:wolfBook.paw=Keeps a equipped empty hotbar slot empty. However if there is no other empty space in inventory the item will appear in hand. Adjust in menu.
+book.werewolf:wolfBook.leap=Jumps in a direction at a fast velocity. There are 3 modes that can be cycled through: Off, Forward, Aim. Forward: Jump straight ahead at a 45 degree angle. Aim: Jump in the direction you're looking at, allowing you to adjust the angle of the jump, which can result in a even higher jump at the cost of horizontal distance.
 book.werewolf:wolfBook.leap2=Activate: Sneak + Jump to activate.
 book.werewolf:wolfBook.nightVision=Gives the werewolf night vision. Adjust in menu.
-book.werewolf:wolfBook.scentTracking=Able to track entities through scent. Switch between all of same type and single in menu.
-book.werewolf:wolfBook.scentTracking2=Activate: Sneak + Right Click on entity to track that type of entity. Sneak + Drop key to cancel.
+book.werewolf:wolfBook.scentTracking=Able to track entities through scent. The track entities will emmit red particles. Switch between all of same type and single in menu.
+book.werewolf:wolfBook.scentTracking2=Activate: Sneak + Right Click on entity to track that type of entity. Sneak + Drop Item key to cancel.
 
 # Guide
 book.werewolf:wolfBook.page.guide=A copy of this book can be made with a regular book and wolfsbane.
