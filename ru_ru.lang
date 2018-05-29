@@ -1,0 +1,298 @@
+﻿# Abilities
+##############################
+ability.Howl=Выть
+ability.Climbing=Взбираться
+ability.Leap=Прыгать
+ability.NightVision=Ночное Зрение
+ability.Dash=Бросок
+ability.Ram=Таран
+ability.Lift=Подниматься
+ability.Shred=Кромсать
+ability.Bite=Кусать
+ability.Paw=Лапа
+ability.Armor=Броня
+ability.PredatorVision=Зрение Хищника
+ability.ScentTracking=Отслеживание по Запаху
+ability.Maim=Ранить
+
+#Inclination
+ability.Tranquility=
+ability.SilverBlood=
+ability.Humanity=
+
+ability.Fear=
+ability.Berserk=
+ability.Feral=
+
+ability.Ingenuity=
+ability.Skillful=
+ability.Mastery=
+
+#Misc
+ability.Werewolf=Оборотень
+ability.Wolf=Волк
+ability.Beast=Зверь
+
+# Abilities Description
+##############################
+ability.Howl.desc=Войте громко и поднимите оборотней вокруг себя.
+ability.Climbing.desc=Позволяет подниматься вверх по определенным блокам. Количество возможных блоков увеличивает с уровнем.
+ability.Leap.desc=Позволяет прыгать вперед с невероятной скоростью.
+ability.NightVision.desc=Дает доступ к ночному зрению.
+ability.Ram.desc=Во время спринта объекты, с которыми вы сталкиваетесь, отбрасываются назад и оглушаются.
+ability.Lift.desc=Позволяет собирать и переносить объекты. В лапах не должно быть ничего экипированного.
+ability.Shred.desc=Атаки без оружия наносят кровотечение.
+ability.Bite.desc=Укусы целевого игрока, жителя деревни или волка и заражают их ликантропией. §lЗаметка:§r В настоящее время влияет только на игроков.
+ability.Paw.desc=Позволяет оборотню держать предметы в лапах. Однако эффективность этого предмета снижается.
+ability.Armor.desc=Позволяет оборотню носить доспехи. Эффективность и подвижность брони снижается.
+ability.ScentTracking.desc=Позволяет отслеживать объекты по запаху. Расстояние отслеживания объекта увеличивается с уровнем. Также возможно установить цвет объектов, отслеживаемых в меню.
+ability.Maim.desc=Специальное нападение, которое ранит жертву. Придавая медлительность и усталость.
+
+#Inclination
+ability.Tranquility.desc=
+ability.SilverBlood.desc=
+ability.Humanity.desc=
+
+ability.Fear.desc=Обычно враждебные толпы становятся неагрессивными и убегают. По-прежнему будут атаковать, если спровоцировать.
+ability.Berserk.desc=
+ability.Feral.desc=
+
+ability.Ingenuity.desc=
+ability.Skillful.desc=
+ability.Mastery.desc=
+
+#Misc
+ability.Werewolf.desc=Предоставляет возможность превращаться в оборотня. Увеличена скорость передвижения, высота прыжка, урон от ударов и уменьшения получаемого урона.
+ability.Wolf.desc=Предоставляет возможность превратиться в волка.
+ability.Beast.desc=Получите доступ к большой, более сильной форме.
+
+#Attribute
+##############################
+attribute.Strength=Сила
+attribute.Rend=Раздирать
+attribute.Protection=Защита
+attribute.Movement=Скорость Передвижения
+attribute.Jump=Прыжок в Высоту
+attribute.Fall=Расстояние Падения
+attribute.Knockback=Отбрасывание
+attribute.KnockResist=Сопростивление к Отбрасыванию
+attribute.Hunger=Голод
+attribute.Regeneration=Регенерация
+attribute.Clarity=Ясность
+attribute.Exhilarating=Бодрость
+attribute.Resistance=Сопротивление
+attribute.Dexterity=Копать
+
+attribute.Strength.desc=Увеличивает урон от оружия на 15%.
+attribute.Rend.desc=Игнорирует 2 пункта брони.
+attribute.Protection.desc=Уменьшает наносимый урон на 8% без брони.
+attribute.Movement.desc=Увеличивает скорость передвижения.
+attribute.Jump.desc=Увеличивает высоту прыжка.
+attribute.Fall.desc=Увеличивает расстояние, с которого можно упасть без повреждений.
+attribute.Knockback.desc=Увеличивает отдачу при атаках пустой рукой.
+attribute.KnockResist.desc=Увеличивает сопротивление к отбрасыванию.
+attribute.Hunger.desc=Уменьшает количество голода при трансформации.
+attribute.Regeneration.desc=Медленно восстанавливают здоровье, каждое очко увеличивает скорость регенерации.
+attribute.Clarity.desc=Уменьшает негативные последствия выхода из состояние трансформации.
+attribute.Exhilarating.desc=Дает импульс при трансформации. Повышенная насыщенность и дает полезные эффекты зелья. Бодрость может активироваться только каждые 5 минут.
+attribute.Resistance.desc=Каждое очко дает иммунитет к эффекту состояния. Иммунитет 1: Слабость. 2: Яд. 3: Медлительность. 4: Усталость. 5: Увядание.
+attribute.Dexterity.desc=Увеличивает скорость разрушения блоков без оружия.
+
+#Skills
+##############################
+skills.reset.ability=Сбросить Очки Способностей
+skills.reset.attribute=Сброс Очков Атрибутов
+skills.reset.inclination=
+skills.reset.inclination2=
+skills.reset.desc=Стоимость 10 уровней.
+skills.assign=Назначить
+skills.close=Закрыть
+skills.confirm=Подтвердить
+skills.emptyPaw=Пустая Лапа
+skills.emptyPaw.desc=Сохраняет заданный слот панели пустым.
+
+skills.broke=Ошибка. Хорошая работа, разбивающая его нечеткость.
+
+# Keys
+##############################
+keys.howlingmoon.category=Howling Moon Rising
+keys.howlingmoon.menu=Меню
+keys.howlingmoon.transform=Transform
+keys.howlingmoon.ability1=Способность 1
+keys.howlingmoon.ability2=Способность 2
+
+# Commands
+##############################
+commands.werewolf.success=%s теперь является Оборотнем
+commands.werewolf.success.false=%s больше не Оборотень
+commands.werewolf.usage=/werewolf <true|false>
+
+commands.werelevel.failure=Не удалось установить не-оборотень игрок were-levels.
+commands.werelevel.failure.levels=Не удалось установить were-levels к 0.
+commands.werelevel.success=Установить were-level к %s for %d
+commands.werelevel.usage=/werelevel <amount> или /werelevels <amount>
+
+commands.werequest.failure=Сумма [calm] и [savage] очки не должны превышать <amount>
+commands.wereprogress.failure.non=
+commands.werequest.success=Установите were-quests сделал %d для %s
+commands.werequest.usage=/werequest <amount> [calmPoints] [savagePoints] или /werequests <amount> [calmPoints] [savagePoints]
+
+# Config
+##############################
+werewolf.config.setLevelCap=Изменение ограничений уровня для оборотней.
+werewolf.config.spawnSilverOre=Генерирация серебряной руды в мире.
+werewolf.config.dimID.name=
+werewolf.config.setLevelCap=
+werewolf.config.spawnSilverOre=
+werewolf.config.dimID=
+
+# Items
+##############################
+tile.howlingmoon.oreSilver.name=Серебряная Руда
+tile.howlingmoon.wolfsbane.name=Волчий Аконит
+item.howlingmoon.ingotSilver.name=Серебряный Слиток
+item.howlingmoon.silverSword.name=Серебряный Меч
+item.howlingmoon.HSilverSword.name=Твердый Серебряный Меч
+item.howlingmoon.moonstone.name=Лунный Жемчуг
+item.howlingmoon.potionWolfsbane.name=Зелье из Волчьего Аконита
+
+# Enchantments
+##############################
+enchantment.Wolfsbane=Волчий Аконит
+
+# Potions
+##############################
+effect.howlingmoon:bleeding=Кровотечение
+effect.howlingmoon:wolfsbane=Волчий Аконит
+effect.howlingmoon:silverpoison=
+
+# Creative Tab
+##############################
+itemGroup.howlingmoon=Howling Moon Rising
+
+# Entities
+##############################
+entity.Werewolf.name=Оборотень
+entity.Hunter.name=Охотник
+entity.NPCWerewolf.name=Village Werewolf
+entity.NPCHunter.name=Village Hunter
+
+# Messages
+##############################
+werewolf.message.infected=Вы заражены ликантропией!
+werewolf.message.fullmoon=Полная луна поднимается! Зверь внутри захватывает вас!
+werewolf.message.night=
+werewolf.message.exitmoon=Луна полна. Зверь внутри беспокойный!
+werewolf.message.calmingcure=Ваше тело успокоилось, инфекция ликантропии исчезла.
+werewolf.message.cure=Волчий аконит покоряет зверя, ты больше не оборотень!
+werewolf.message.cure.infection=Волчий аконит лечит вашу инфекцию!
+werewolf.message.immune=Волчий аконит течет по вашим венам, вы невосприимчивы к инфекции ликантропии!
+werewolf.message.antiimmune=Волчий аконит изгнан из вашего тела, вы подвержены инфекции ликантропии!
+werewolf.message.noeffect=Зелье не действует.
+werewolf.message.sleep=Зверь внутри беспокойный!
+werewolf.message.wake=Тебе снилось, что ты охотишься в далеком месте.
+werewolf.message.wake2=ы слабо вспоминаешь, что слышал шепот во сне.
+
+werewolf.message.wolfform=Волк внутри пробуждается! Вы получаете возможность перейти в волка.
+werewolf.message.beastform=Зверь внутри пробуждается! Вы получаете возможность перейти в более мощную форму.
+werewolf.message.unlock=Другая часть волка внутри пробуждается!
+
+# Guide Messages
+##############################
+guide.message.welcome0=
+guide.message.welcome1=
+guide.message.welcome2=
+guide.message.welcome3=
+guide.message.welcome4=
+guide.message.welcome5=
+guide.message.welcome6=
+guide.message.welcome7=
+guide.message.level1=
+guide.message.level2=
+guide.message.level3=
+guide.message.level4=
+guide.message.level5=
+guide.message.level6=
+guide.message.level7=
+guide.message.level8=
+guide.message.inclination=
+
+# Werewolf Menu
+##############################
+werewolf.menu.werewolf=Оборотень
+werewolf.menu.abilities=Способности
+werewolf.menu.texture=Текстура
+werewolf.menu.model=Модель
+werewolf.menu.texture.gray=Серый
+werewolf.menu.texture.white=Белый
+werewolf.menu.texture.black=Чёрный
+werewolf.menu.texture.red=Красный
+werewolf.menu.texture.timber=Лесной
+werewolf.menu.texture.custom=Кастомный 
+werewolf.menu.model.wolf=Волк
+werewolf.menu.model.beast=Зверь
+werewolf.menu.status=Статус
+werewolf.menu.infection0=Нормальный
+werewolf.menu.infection1=Инфицированный
+werewolf.menu.infectionN=Иммунный
+werewolf.menu.off=Выключено
+werewolf.menu.on=Включено
+werewolf.menu.skills=Умения
+
+werewolf.menu.title=
+werewolf.menu.title.calm1=
+werewolf.menu.title.calm2=
+werewolf.menu.title.calm3=
+werewolf.menu.title.savage1=
+werewolf.menu.title.savage2=
+werewolf.menu.title.savage3=
+werewolf.menu.title.neutral=
+
+werewolf.menu.paw=Держать лапу пустой
+werewolf.menu.pawSlot=Введите номер слота (0-8), чтобы оставить его пустым. Любое другое значение отключит способность
+werewolf.menu.slot=Слот
+werewolf.menu.leap.forward=Вперёд
+werewolf.menu.leap.aim=Цель
+
+werewolf.menu.ability=Способность
+werewolf.menu.toggle.name=Возможность Переключения
+werewolf.menu.toggle.none=Нет
+werewolf.menu.toggle.click=Нажмите, чтобы изменить
+werewolf.menu.activate.name=Активировать
+werewolf.menu.sneakJump=Прыжок: Скрытность + Прыжок
+werewolf.menu.sprintJump=Прыжок: Спринт + Прыжок
+werewolf.menu.sprintClimb=Взбираться: Спринт
+werewolf.menu.sprintClimb.no=Не взбираться во время спринта
+werewolf.menu.sprintClimb.climb=Только взобраться во время спринта
+werewolf.menu.sprintClimb.stop=Удерживайте позицию во время лазания
+werewolf.menu.sprintClimb.clampClimb=Зажать стену во время лазания
+werewolf.menu.sprintClimb.clamp=Зажим на стену
+werewolf.menu.sprintClimb.clamp2=Вперед: Вверх, Назад: Вниз
+werewolf.menu.leap.climb=Во время лазания
+werewolf.menu.leap.leap=Только на земле
+werewolf.menu.ram.key=Удерживая клавишу спринта
+
+werewolf.scent.Color=Цвет отслеживания запахов
+werewolf.scent.settings=Настройки Цвета
+werewolf.scent.mobs=Монстры
+werewolf.scent.animals=Животные
+werewolf.scent.creatures=Существа
+werewolf.scent.others=Другие
+werewolf.scent.edit=Редактировать
+werewolf.scent.clear=Очистить
+werewolf.scent.ignore=Игнорировать
+werewolf.scent.cancel=Закрыть
+werewolf.scent.disabled=Отключить
+werewolf.scent.specific=Конкретный
+
+# Tame Menu
+##############################
+
+# Guide Book
+##############################
+
+# Lore Book
+##############################
+
+# Dialog
+##############################
