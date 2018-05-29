@@ -149,6 +149,7 @@ werewolf.config.dimID=Set the mod's Dimension ID.
 ##############################
 tile.howlingmoon.ore_silver.name=Silver Ore
 tile.howlingmoon.wolfsbane.name=Wolfsbane
+tile.howlingmoon.hunter_banner.name=Hunter's Banner
 item.howlingmoon.ingot_silver.name=Silver Ingot
 item.howlingmoon.silver_sword.name=Silver Sword
 item.howlingmoon.hsilver_sword.name=Hardsilver Sword
