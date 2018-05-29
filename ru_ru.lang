@@ -150,6 +150,7 @@ werewolf.config.dimID=
 ##############################
 tile.howlingmoon.oreSilver.name=Серебряная Руда
 tile.howlingmoon.wolfsbane.name=Волчий Аконит
+tile.howlingmoon.hunter_banner.name=
 item.howlingmoon.ingotSilver.name=Серебряный Слиток
 item.howlingmoon.silverSword.name=Серебряный Меч
 item.howlingmoon.HSilverSword.name=Твердый Серебряный Меч
