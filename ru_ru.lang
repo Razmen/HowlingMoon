@@ -148,14 +148,14 @@ werewolf.config.dimID=Установите ID измерения.
 
 # Items
 ##############################
-tile.howlingmoon.oreSilver.name=Серебряная Руда
+tile.howlingmoon.ore_silver.name=Серебряная Руда
 tile.howlingmoon.wolfsbane.name=Волчий Аконит
 tile.howlingmoon.hunter_banner.name=Знамя Охотников
-item.howlingmoon.ingotSilver.name=Серебряный Слиток
-item.howlingmoon.silverSword.name=Серебряный Меч
-item.howlingmoon.HSilverSword.name=Твердый Серебряный Меч
+item.howlingmoon.ingot_silver.name=Серебряный Слиток
+item.howlingmoon.silver_sword.name=Серебряный Меч
+item.howlingmoon.hsilver_sword.name=Твердый Серебряный Меч
 item.howlingmoon.moonstone.name=Лунный Жемчуг
-item.howlingmoon.potionWolfsbane.name=Зелье из Волчьего Аконита
+item.howlingmoon.potion_wolfsbane.name=Зелье из Волчьего Аконита
 
 # Enchantments
 ##############################
